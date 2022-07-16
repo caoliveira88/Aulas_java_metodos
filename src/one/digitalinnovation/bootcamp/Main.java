@@ -19,5 +19,11 @@ public class Main {
         Mensagem.obterMensagem(14);
         Mensagem.obterMensagem(21);
         Mensagem.obterMensagem(1);
+
+        //Sobrecarga - Calculo quadrilátero
+        System.out.println("Exercício quadrilátero");
+        Quadrilatero.area(3);
+        Quadrilatero.area(5, 5);
+        Quadrilatero.area(7, 8, 9);
     }
 }
