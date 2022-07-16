@@ -25,5 +25,18 @@ public class Main {
         Quadrilatero.area(3);
         Quadrilatero.area(5, 5);
         Quadrilatero.area(7, 8, 9);
+
+        //Retornos
+        System.out.println("Exercícios retornos");
+
+        double areaQuadrado = Retorno.area(3);
+        System.out.println("Área do quadrado: " + areaQuadrado);
+
+        double areaRetangulo = Retorno.area(5, 5);
+        System.out.println("Área do retangulo: " + areaRetangulo);
+
+        double areaTrapezio = Retorno.area(7, 8, 9);
+        System.out.println("Área do trapezio: " + areaTrapezio);
+
     }
 }
